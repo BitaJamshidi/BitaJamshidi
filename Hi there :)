@@ -1,8 +1,15 @@
-const Bita = {
-  pronouns: "she" | "her",
-  code_Lang: [C++, C#, Matlab, Python, Java],
-  interest: [Machine learning, Deep Learning, Image Processing, Computer Vision, Evolutionary Algorithms],
-  current_research_area: ["Medical"],
+class Bita:
+def __init__(self):
+self.pronouns = "she" or "her"
+self.code_lang = ["C++", "C#", "Matlab",  "Java", "Python"]
+self.interest = [
+"Machine learning", "Deep Learning", "Image Processing",
+"Computer Vision", "Evolutionary Algorithms"
+]
+self.current_research_area = "Medical"
+self.challenge = "I am doing research to detect diseases using ML and DL algorithms!"
 
- challenge: "I am doing a research to disease detection with ML and DL algorithms!"
-}
+self.university_degree = "AI Researcher in Medical field & Freelancer, B.S: Software Engineering
+MSc: Artificial Intelligence And Soft Computing"
+
+bita_profile = Bita()
